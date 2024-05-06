@@ -11,4 +11,6 @@ helm install kafka bitnami/kafka --version="22.1.3" \
  --set persistence.dataLogDir.size=10Gi \
  --set externalAccess.service.loadBalancerIPs[0]='192.168.169.70' \
  --set externalAccess.service.loadBalancerIPs[1]='192.168.169.71' \
- --set externalAccess.service.loadBalancerIPs[2]='192.168.169.72' 
+ --set externalAccess.service.loadBalancerIPs[2]='192.168.169.72' \
+ --set global.storageClass=microk8s-hostpath
+
