@@ -4,6 +4,8 @@
 
 * git clone https://github.com/mrefky/kafka-externalIP.git
 * cd kafka-externalIP/
+*  chmod a+x *sh
+* ./get_helm.sh
 * ./re_install.sh
 * k9s -c pod -n default
 # Statefullsets
