@@ -17,4 +17,4 @@
 # PVC
 ![PVC](./pvc.jpg?raw=true "Arch")
 # Note
-Use of 
+Use of storage class  "microk8s-hostpath" is not correct for HA. 
